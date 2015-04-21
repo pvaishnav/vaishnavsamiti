@@ -1,0 +1,32 @@
+; cPanel first:11.40.1.9 (update_time):1421680579 11.40.1.9: Cpanel::ZoneFile::VERSION:1.3 hostname:alpha.go4hosting.com latest:11.44.2.3
+; Zone file for vaishnavsamiti.com
+$TTL 14400
+@      86400	IN      SOA     ns1.eagletechnosys.com. sushil.go4hosting.com. (
+		2014030103	; serial, todays date+todays
+		86400		; refresh, seconds
+		7200		; retry, seconds
+		3600000		; expire, seconds
+		86400 )		; minimum, seconds
+
+vaishnavsamiti.com. 86400 IN NS ns1.eagletechnosys.com.
+vaishnavsamiti.com. 86400 IN NS ns2.eagletechnosys.com.
+vaishnavsamiti.com. 86400 IN NS ns1.moneymagicsms.com.
+
+
+vaishnavsamiti.com. IN A 111.118.180.37
+
+localhost.vaishnavsamiti.com. IN A 127.0.0.1
+
+vaishnavsamiti.com. IN MX 0 vaishnavsamiti.com.
+
+mail IN CNAME vaishnavsamiti.com.
+www IN CNAME vaishnavsamiti.com.
+ftp IN A 111.118.180.37
+cpanel IN A 111.118.180.37
+webdisk IN A 111.118.180.37
+whm IN A 111.118.180.37
+webmail IN A 111.118.180.37
+autoconfig IN A 111.118.180.37
+autodiscover IN A 111.118.180.37
+_autodiscover._tcp IN SRV 0 0 443 cpanelemaildiscovery.cpanel.net.
+default._domainkey IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDY7nifm47aAsaEiJbV41tiLhRNR6GgrYOAEjLm4rU16yHulqVorOmKLFZR/Hm37erZiW/pOycNKCtXHqTnN2KbKtT3y6BIsloqpAvfa2itN81AazQ0TJkxgFz3Gb/mB6s2jPPD8sqym9gnyiiXJosNUCSoFqinkOwzfizfgwSZFQIDAQAB;"

@@ -1,0 +1,627 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201409 will be lost/reset.
+# Last config file used to build this data file was /home/vaishnav/tmp/awstats/awstats.vaishnavsamiti.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2012                
+POS_TIME 2689                
+POS_VISITOR 11872               
+POS_DAY 18685               
+POS_DOMAIN 3515                
+POS_LOGIN 4309                
+POS_ROBOT 4464                
+POS_WORMS 4863                
+POS_EMAILSENDER 4994                
+POS_EMAILRECEIVER 5137                
+POS_SESSION 19467               
+POS_SIDER 19668               
+POS_FILETYPES 5272                
+POS_DOWNLOADS 5515                
+POS_OS 5909                
+POS_BROWSER 6092                
+POS_SCREENSIZE 6791                
+POS_UNKNOWNREFERER 6865                
+POS_UNKNOWNREFERERBROWSER 7369                
+POS_ORIGIN 7822                
+POS_SEREFERRALS 7964                
+POS_PAGEREFS 8139                
+POS_SEARCHWORDS 9458                
+POS_KEYWORDS 9677                
+POS_MISC 2353                
+POS_ERRORS 9807                
+POS_CLUSTER 4165                
+POS_SIDER_404 9904                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141001022512 12 1734 9928524074904
+FirstTime 20140901000418
+LastTime 20140930184806
+LastUpdate 20141001082344 12 0 11 0 0
+TotalVisits 172                 
+TotalUnique 161                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 171                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 104 6765609 7 13 316770
+1 11 206 19685023 9 12 139363
+2 4 25 878404 11 32 346913
+3 8 106 7218368 13 37 415921
+4 4 27 268072 4 18 148232
+5 5 207 12003272 10 15 234362
+6 7 214 8921263 18 36 508787
+7 4 107 5020861 7 15 215123
+8 7 94 5871808 15 31 455808
+9 5 5 95795 13 58 669747
+10 8 80 3542148 18 46 691335
+11 61 192 3946530 6 24 107182
+12 6 69 2614555 7 14 211987
+13 11 141 15932155 11 18 273019
+14 5 93 5058992 16 35 406469
+15 9 112 7065126 7 36 414751
+16 4 147 10143233 10 29 299336
+17 21 114 3796993 9 17 230216
+18 37 100 4418420 13 19 326467
+19 3 98 13415487 11 27 288637
+20 16 209 11536926 10 24 323396
+21 20 454 74319619 6 13 151417
+22 5 80 6170585 3 7 65946
+23 17 218 10516974 7 10 144237
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 39
+us 70 366 9292082
+in 32 393 25439806
+br 32 678 39618540
+fi 31 31 669392
+de 14 14 313039
+ua 13 13 278622
+ru 13 224 14111833
+it 10 161 15039086
+es 8 184 12972910
+lv 7 7 0
+th 6 62 2601641
+mx 5 207 10063353
+co 5 418 75162338
+cn 4 4 76688
+pt 3 113 5673615
+jp 3 3 54680
+tw 3 3 70998
+my 3 38 2430620
+cl 2 35 2394625
+ph 2 2 47332
+id 2 2 47332
+il 1 1 23666
+eg 1 2 31746
+fr 1 1 23666
+ro 1 1 23666
+dk 1 96 13368155
+sa 1 1 23666
+sr 1 1 23666
+hr 1 1 23666
+pr 1 35 2376752
+do 1 1 23666
+dz 1 1 23666
+aw 1 1 23666
+ca 1 1 23666
+ar 1 1 23666
+nl 1 31 2330672
+gt 1 67 3751449
+ae 1 1 23666
+mg 0 1 17005
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+googlebot 251 4301286 20140930004033 0
+bot[\s_+:,\.\;\/\\-] 99 2152523 20140930204817 0
+spider 45 568492 20140930101930 0
+no_user_agent 6 112231 20140928115201 0
+msnbot\-media 2 107788 20140905084503 0
+netcraft 1 23666 20140912062134 0
+crawl 1 66187 20140930204638 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 538 3038834 0 0
+png 967 1540247 0 0
+pdf 12 1478785 0 0
+php 98 2046469 0 0
+html 187 4160086 0 0
+js 556 11287113 0 0
+jpg 766 213660819 0 0
+jpeg 46 1173581 0 0
+gif 32 132369 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 8
+/upload_document/1401071059.pdf 5 0 330935
+/upload_document/1401070232.pdf 4 0 250532
+//upload_document/1401070699.pdf 3 8 638882
+//upload_document/1401070232.pdf 3 1 250532
+//upload_document/1401071059.pdf 2 5 328701
+//upload_document/1401070986.pdf 2 2 155800
+/upload_document/1401070986.pdf 2 0 84474
+/upload_document/1401070699.pdf 1 0 93751
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 14
+linuxsuse 1
+linuxandroid 64
+blackberry 1
+winxp 22
+winlong 8
+java 5
+winnt 9
+linux 215
+winvista 3
+win7 2860
+macosx 2
+j2me 3
+win2003 1
+Unknown 24
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 40
+msie6.0 15
+chrome37.0.2062.124 70
+firefox20.0 1
+chrome24.0.1309.0 1
+android 63
+firefox26.0 1
+chrome22.0.1229.79 1
+firefox18.0 1
+chrome31.0.1650.63 38
+chrome7.0.517.44 1
+opera9.80 5
+firefox31.0 58
+ecatch 5
+msie8.0 1
+chrome24.0.1290.1 1
+msie7.0 5
+chrome37.0.2062.120 142
+msie9.0 6
+firefox2.0.0.2 1
+Unknown 152
+chrome37.0.2062.94 1
+firefox11.0 1
+chrome30.0.0.0 1
+blackberry 1
+firefox3.5.6 1
+chrome34.0.1847.131 1
+firefox21.0 2
+firefox3.5.2 1
+msie5.5 9
+firefox3.6.4 44
+chrome32.0.1700.107 1088
+chrome36.0.1985.143 652
+mozilla 65
+chrome35.0.1916.153 762
+netscape5.0 1
+firefox14.0.1 12
+firefox22.0 1
+msie10.0 4
+chrome25.0.1364.172 1
+chrome31.0.1650.16 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~page-d) 20140918192916
+Mozilla/5.0_(compatible;_WebMasterAid/1.0;__http://wmaid.com/explore/) 20140918222543
+wscheck.com/1.0.0_(_http://wscheck.com/) 20140914180825
+SEOstats_2.1.0__________https://github.com/eyecatchup/SEOstats 20140914180826
+Mozilla/4.0_(compatible;_Synapse) 20140924091342
+Web-sniffer.me/1.0.0_(_http://web-sniffer.me/) 20140928115200
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+UCWEB/2.0_(Linux;_U;_Opera_Mini/7.1.32052/30.3697;_en-US;_GT-S7562)_U2/1.0.0_UCBrowser/9.3.0.440_Mobile 20140904110321
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~page-d) 20140918192916
+wscheck.com/1.0.0_(_http://wscheck.com/) 20140914180825
+Apache-HttpClient/4.3_(java_1.5) 20140915115238
+Web-sniffer.me/1.0.0_(_http://web-sniffer.me/) 20140928115200
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 190 201
+From1 0 0
+From2 10 20
+From3 62 62
+From4 23 2935
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 9 17
+bing 0 2
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 27
+http://semalt.semalt.com/crawler.php 27 27
+http://wmaid.com/explore/vaishnavsamiti.com/ 7 7
+http://www.domaintuno.com/d/vaishnavsamiti.com 2 2
+http://musica.descargar-musica-gratis.net/descargar-musica-gratis.php 2 2
+http://musicas.baixar-musicas-gratis.com/baixar-musicas-gratis.php 2 2
+http://765.semalt.com/crawler.php 1 1
+http://950.semalt.com/crawler.php 1 1
+http://828.semalt.com/crawler.php 1 1
+http://749.semalt.com/crawler.php 1 1
+http://wsgiga.com/vaishnavsamiti.com/redirect.html 1 1
+http://www.bestsub.com 1 1
+http://condomplanet.ch 1 1
+http://327.semalt.com/crawler.php 1 1
+http://domains-by-day.com/2014-03-03/vaishnavsamiti.com/redirect 1 1
+http://628.semalt.com/crawler.php 1 1
+http://youtube-downloader.savetubevideo.com/youtube-downloader.php 1 1
+http://privhosting.com 1 1
+http://937.semalt.com/crawler.php 1 1
+http://212.semalt.com/crawler.php 1 1
+http://884.semalt.com/crawler.php 1 1
+http://www.high-tech-discount.fr/lang-fr/ 1 1
+http://499.semalt.com/crawler.php 1 1
+http://834.semalt.com/crawler.php 1 1
+http://159.semalt.com/crawler.php 1 1
+http://338.semalt.com/crawler.php 1 1
+http://losabalorios.com 1 1
+http://163.semalt.com/crawler.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+www+vaishnavsamiti.com 5
+kumar+vaishnav 1
+www.vaishnavsamiti.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+www 5
+vaishnavsamiti.com 5
+vaishnav 1
+www.vaishnavsamiti.com 1
+kumar 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 2 53248
+404 174 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 31
+/arno-schrijft/zo-dat-was-dat/ 1 -
+/robots.txt 120 -
+/templates/new-images/pag_bg4.png 1 http://vaishnavsamiti.com/index.php
+/templates/images/page_bg.png 1 http://vaishnavsamiti.com/index.php
+//index.html 5 -
+/templates/images/rounded-overlay2.png 1 http://vaishnavsamiti.com/index.php
+/templates/images/pag_bg_a.png 1 http://vaishnavsamiti.com/index.php
+/templates/images/button_green_right.png 1 http://vaishnavsamiti.com/index.php
+/templates/images/pag_bg.png 1 http://vaishnavsamiti.com/index.php
+/audio.html 2 -
+//templates/images/icon.png 6 -
+/wp-admin/admin-ajax.php 3 -
+/index.html 4 -
+/downloader/index.php 1 -
+//news_images/contactus.jpeg 4 http://vaishnavsamiti.com/index.php
+/administrator/ 3 -
+/editor/editor/filemanager/browser/default/connectors/test.html 1 -
+/blog/wp-login.php 1 -
+/Fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/templates/new-images/pag_bg_a4.png 1 http://vaishnavsamiti.com/index.php
+/admin/fckeditor/editor/filemanager/browser/default/connectors/uploadtest.html 1 -
+/editor/editor/filemanager/browser/default/connectors/uploadtest.html 1 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/wp-login.php 5 -
+/actividades/tierra/rutascaballo 1 -
+/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/templates/images/bg-profiles.png 1 http://vaishnavsamiti.com/index.php
+/templates/images/inner-shadow.png 1 http://vaishnavsamiti.com/index.php
+/templates/images/button_red_right.png 1 http://vaishnavsamiti.com/index.php
+/templates/css/ajax-loader_w.gif 1 http://vaishnavsamiti.com/index.php
+/domainsigma_removal_717b7918292096e795401a0ebc1c15953dbaa984.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 171
+192.99.149.88 31 31 669392 20140918231952
+199.217.119.4 19 19 422816 20140928115200
+37.57.231.226 12 12 254956 20140927140038
+54.211.247.208 12 30 493426 20140909174613
+70.39.187.84 11 42 925950 20140914181319
+69.58.178.57 11 11 244603 20140920203703
+1.39.13.11 10 17 659641 20140914180911
+180.215.245.74 7 82 3424731 20140904102317
+188.92.76.167 7 7 0 20140929041310
+144.76.163.48 4 4 86555 20140914024713
+117.212.20.146 3 70 3333047 20140927160512
+61.3.101.72 3 74 2707249 20140921213759
+61.246.216.100 3 66 2543557 20140924125152
+187.75.126.239 2 2 47332 20140919120226
+88.198.56.239 2 2 47332 20140927094602
+148.251.11.144 2 2 47332 20140909093638
+107.150.11.131 2 38 510414 20140925061836
+186.249.158.249 1 1 23666 20140919113830
+179.178.144.207 1 1 23666 20140919120615
+202.46.62.202 1 1 14678 20140916004703
+177.7.226.228 1 28 1576746 20140921202113
+107.178.200.203 1 1 23666 20140918192916
+188.217.125.93 1 1 23666 20140919114759
+70.124.1.83 1 1 23666 20140919115031
+186.194.182.68 1 33 2379657 20140913203133
+24.132.13.49 1 31 2330672 20140924143226
+179.125.139.215 1 39 2461872 20140921035458
+197.32.37.195 0 1 8080 
+148.251.11.138 1 1 23666 20140909190612
+27.124.46.201 1 1 23666 20140919115250
+8.37.225.128 0 1 53894 
+109.184.206.242 1 1 1131 20140910032055
+179.186.173.197 1 35 2376752 20140908062152
+188.226.189.197 1 1 23666 20140910001437
+64.237.237.220 1 35 2376752 20140905211816
+187.75.54.247 1 28 1576746 20140925234444
+190.106.223.157 1 67 3751449 20140903212738
+189.123.105.39 1 1 23666 20140919113313
+187.11.41.68 1 1 23666 20140919113813
+86.123.18.196 1 1 23666 20140919113312
+83.39.251.190 1 36 2398032 20140903150926
+186.219.53.146 1 31 2330672 20140903051300
+119.63.193.195 1 1 15507 20140930184806
+72.52.94.234 1 44 2478346 20140916071109
+83.36.201.13 1 1 23666 20140919111749
+179.184.197.67 1 1 23666 20140919112622
+90.166.255.210 1 1 23666 20140919112945
+201.229.67.28 1 1 23666 20140919115436
+148.251.11.149 1 1 23666 20140902100248
+201.234.127.38 1 1 23666 20140919112807
+197.163.14.243 1 1 23666 20140919113949
+88.27.151.35 1 64 2745949 20140919234920
+5.248.87.10 1 1 23666 20140917085850
+188.78.107.54 1 76 6767949 20140904163750
+189.201.232.10 1 1 23666 20140919112700
+174.90.222.8 1 1 23666 20140919113504
+59.94.208.93 1 1 23666 20140919113655
+209.147.118.127 0 1 62633 
+117.212.30.14 0 1 53894 
+200.97.158.144 1 36 2398032 20140915232521
+179.186.27.131 1 34 2370959 20140906014712
+188.14.192.74 1 93 12362655 20140918130849
+189.79.29.163 1 1 23666 20140919112009
+187.254.16.168 1 60 2487103 20140916203301
+36.227.106.169 1 1 23666 20140923072605
+189.196.58.69 1 53 2481865 20140916232455
+1.39.24.246 0 1 182011 
+109.184.114.247 1 1 1131 20140911014438
+202.46.63.66 1 1 23666 20140902111039
+186.150.32.253 1 1 23666 20140919115614
+204.93.188.254 1 1 23666 20140919113539
+200.103.71.10 1 1 23666 20140919112404
+187.74.124.40 1 29 1891774 20140901000418
+148.251.11.142 1 1 16829 20140915115238
+183.88.195.139 1 1 23666 20140919112929
+177.16.232.174 1 25 1069555 20140918081108
+79.30.245.48 1 60 2487103 20140922180351
+150.70.173.42 1 1 23666 20140919114908
+218.208.91.205 1 1 23666 20140919113802
+216.172.56.37 1 1 23666 20140906211341
+191.6.100.163 1 31 2330672 20140905054401
+187.10.180.218 1 53 2481865 20140901052104
+61.58.68.158 1 1 23666 20140919114214
+37.228.104.99 0 3 942650 
+109.49.234.120 1 57 2483311 20140913053450
+148.251.75.46 1 1 20327 20140923151628
+182.52.138.135 1 1 23666 20140919112022
+189.79.183.36 1 24 268072 20140918042935
+200.2.173.23 1 1 23666 20140919113745
+181.131.196.96 1 40 2465646 20140919004120
+207.244.73.12 1 10 206141 20140902172157
+189.81.155.60 1 74 6077477 20140906224544
+54.92.198.131 1 1 23666 20140909113209
+96.227.124.38 1 1 23666 20140911175356
+62.219.8.233 1 1 23666 20140901094925
+38.100.21.68 1 1 23666 20140920065113
+177.135.231.25 1 1 23666 20140919115206
+193.150.120.74 1 1 23666 20140928152433
+186.237.218.111 1 19 256857 20140922215456
+109.118.16.149 1 1 23666 20140919112931
+179.222.205.45 1 1 23666 20140919113054
+179.157.6.54 1 69 4318655 20140917055939
+95.37.91.17 1 1 1131 20140910095721
+54.205.175.174 1 1 23666 20140926224340
+101.108.109.236 1 1 23666 20140919115412
+186.206.174.95 1 30 2330068 20140911081157
+190.21.46.123 1 34 2370959 20140904082732
+87.244.161.126 1 1 23666 20140924091342
+94.160.68.126 1 1 23666 20140919114744
+198.178.124.47 1 1 23666 20140923013756
+88.207.86.181 1 1 23666 20140919114219
+177.12.157.213 1 43 2477858 20140919201203
+5.56.146.163 1 96 13368155 20140923191341
+122.55.101.22 1 1 23666 20140919114029
+93.71.115.22 1 1 23666 20140919113039
+41.98.178.54 1 1 23666 20140919110955
+189.49.185.133 1 1 18405 20140918024010
+189.26.97.194 1 35 2376752 20140916012710
+207.46.13.81 0 1 4246 
+58.9.189.39 1 57 2483311 20140902140838
+186.250.52.82 1 19 256857 20140921073743
+175.139.221.134 0 1 6536 
+41.188.107.41 0 1 17005 
+202.46.63.169 1 1 23666 20140903083508
+110.5.78.9 1 1 23666 20140919115256
+1.9.103.170 1 1 23666 20140919113442
+177.106.144.28 1 31 2330672 20140930002022
+200.72.249.169 1 1 23666 20140919114032
+187.59.97.164 1 1 23666 20140919111714
+36.224.49.30 1 1 23666 20140923002906
+179.178.220.33 1 39 2461872 20140923173614
+151.48.184.192 1 1 23666 20140919114726
+119.63.193.132 1 1 15507 20140916004852
+89.214.140.164 1 22 819345 20140913023804
+124.253.82.125 1 93 12425505 20140903011928
+189.153.78.130 1 32 2331438 20140913030234
+92.96.218.51 1 1 23666 20140919113856
+82.55.98.102 1 1 23666 20140919114429
+112.206.7.127 1 1 23666 20140919114347
+189.63.49.64 1 37 2419312 20140921015136
+187.4.191.66 1 60 2487103 20140910065953
+190.143.53.206 1 69 4504771 20140914153840
+209.147.118.185 0 1 42237 
+177.203.125.184 1 1 23666 20140919114007
+118.173.117.12 1 1 23666 20140919113937
+54.83.6.7 1 1 23666 20140907072410
+180.247.15.9 1 1 23666 20140919115427
+148.251.69.136 1 1 23666 20140906152950
+164.100.6.76 1 1 23666 20140919114806
+189.135.195.202 1 61 2739281 20140921062243
+144.76.155.8 1 1 23666 20140906152934
+79.147.215.60 1 1 23666 20140919115537
+175.138.194.14 1 35 2376752 20140910134822
+207.244.73.5 1 1 0 20140902045842
+202.46.56.43 1 1 14678 20140930184623
+85.247.138.132 1 34 2370959 20140918203938
+8.37.228.8 1 132 2541161 20140904110315
+180.246.180.30 1 1 23666 20140919112425
+191.190.8.97 1 26 1072390 20140903064059
+93.41.50.142 1 1 23666 20140919113234
+88.25.67.126 1 1 23666 20140919114715
+93.144.38.219 1 1 23666 20140919113704
+101.51.80.239 1 1 23666 20140919120154
+177.138.92.35 1 30 2330068 20140930034639
+75.121.67.43 1 25 1069555 20140911233015
+191.33.14.3 1 252 64788859 20140917210448
+106.221.152.2 1 1 15507 20140909211947
+84.125.36.222 1 1 23666 20140919110506
+37.59.4.151 1 1 23666 20140918150801
+177.222.168.250 1 1 23666 20140919110821
+186.233.181.36 1 1 23666 20140919112406
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20140901 3 83 4397305 3
+20140902 7 73 2790678 6
+20140903 6 254 22001714 6
+20140904 10 321 15198551 4
+20140905 2 69 5650074 2
+20140906 7 113 8566766 7
+20140907 3 3 69567 2
+20140908 1 35 2376752 1
+20140909 16 34 579931 5
+20140910 5 98 4889783 5
+20140911 4 58 3430956 4
+20140912 1 1 23666 1
+20140913 6 146 8013751 5
+20140914 42 141 6972146 5
+20140915 2 37 2414861 2
+20140916 6 196 9875502 6
+20140917 3 322 69131180 3
+20140918 38 210 16782704 12
+20140919 62 206 9085747 61
+20140920 12 14 330243 2
+20140921 8 253 12503266 6
+20140922 2 80 2806593 2
+20140923 6 139 15921352 6
+20140924 5 99 4940132 3
+20140925 3 66 2087160 2
+20140926 1 1 23666 1
+20140927 16 83 3611669 3
+20140928 2 2 39578 2
+20140929 2 2 0 1
+20140930 4 63 4690925 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 2
+2mn-5mn 5
+30s-2mn 4
+15mn-30mn 1
+0s-30s 159
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 186 4136420 156 152
+/index.php 95 2043076 12 16
+/admin.php 3 3393 3 3
+/index.php/admin/ 1 23666 1 1
+END_SIDER

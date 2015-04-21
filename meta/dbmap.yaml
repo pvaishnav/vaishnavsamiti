@@ -1,0 +1,13 @@
+--- 
+MYSQL: 
+  dbs: 
+    vaishnav_samiti_db: 111.118.178.177
+  dbusers: 
+    vaishnav_samuser: 
+      dbs: 
+        vaishnav_samiti_db: 111.118.178.177
+      server: 111.118.178.177
+  noprefix: {}
+
+  owner: vaishnav
+  server: 111.118.178.177

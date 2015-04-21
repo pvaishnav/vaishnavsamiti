@@ -1,0 +1,87 @@
+body {
+/*background-color:#FFCCFF; */
+
+/*font-family:Verdana, Geneva, sans-serif;	
+*/
+}
+a {
+text-decoration:none;
+color:#0033CC;
+}
+.alert{
+color:#FF0000;
+}
+.wrapper {
+border:#6699FF solid; min-height:500px; height:auto;
+width:950px;
+}
+.menu {
+border:#6699FF solid; margin:4px; /*background-color:#0099FF;*/ color:#0033CC;
+}
+.menu a {
+text-decoration:none;
+color:#FF0000;
+}
+div.box_data{
+border:#6699FF solid;
+margin:4px;
+}
+div.dv_header , div.dv_footer {
+background-color:#33CCCC; 
+background-color:#0099CC; 
+margin:5px;
+font-size:24px;
+color:#660099;
+color:#660000;
+text-align:center;
+}
+div.dv_header {
+border-top:#0066FF solid 3px;
+}
+div.dv_footer {
+border-bottom:#0066FF solid;
+}
+div.dv_data {
+margin:3px;
+}
+tr.form_tmpl_1 {
+background-color:#3399FF;
+color:#0033CC;
+}
+tr.form_tmpl_2 {
+background-color:#CCCCCC;
+color:#0033FF;
+}
+
+tr.header {
+background-color:#3399FF;
+background-color:#0099FF; 
+color:#0033CC;
+/*color:#FF0066;*/
+}
+tr.data {
+background-color:#33FFFF;
+background-color:#66FFFF; 
+color:#0033FF; 
+text-align:center;
+}
+/* listing menu items */
+
+div.box_menu li{
+/*border:#6699FF solid ;
+border-bottom:none;
+
+*/
+
+display:inline;
+margin:2px;
+padding:2px;
+line-height:0;
+}
+
+.box_num ,.box_num2
+{
+	display:inline;
+	color:#FF0000;
+	
+}

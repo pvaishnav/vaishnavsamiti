@@ -1,0 +1,39 @@
+
+/* ----------------------- GENERAL LAYOUT -----------------------*/
+.header-wrapper{
+  background-color:#c4703c;
+}
+.header-wrapper-inner {
+  background-color:#c4703c;
+}
+
+/* links */
+a,a:link,a:visited {
+  color:#c4703c;
+  text-decoration:none;
+}
+a:hover{
+  color:#555555;
+}
+a img, img {
+  border:none
+}
+a.button{
+  color: #858585;
+}
+a.button:hover {
+  color: #555555;
+}
+ul.tabs li a:hover,
+.toggle_title h5,
+.testiname,
+#profiles h4,
+.jqueryslidemenu ul li a:hover,
+.jqueryslidemenu ul li.selected ul li a:hover,
+.jqueryslidemenu ul li ul li a:hover  {
+  color: #c4703c;
+}
+.jqueryslidemenu ul li.selected a {
+  background: #c4703c;
+  color: #ffffff;
+}
