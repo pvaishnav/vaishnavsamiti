@@ -1,5 +1,6 @@
 <?php session_start();
-
+include("temp.html");
+/*
 include("global.php");
 $smarty = new Smarty;
 
@@ -139,6 +140,6 @@ $smarty->assign("action", $action);
 
 
 $smarty->display('index.tpl');
-
+*/
 ?>
 
