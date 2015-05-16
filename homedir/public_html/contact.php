@@ -31,7 +31,7 @@ include("htmlTemplate/header.html");
 	
 	  <div class="slideshow">
 	    <ul class="slideshow">
-                      <li class="show"><img width="500" height="250" src="images/gathering.JPG" alt="People Gathered at Function on 28 April 2013" /></li>
+                      <li class="show"><img width="500" height="250" src="images/gathering.jpg" alt="People Gathered at Function on 28 April 2013" /></li>
           <li><img width="500" height="250" src="images/prize1.jpg" alt="Prize To Meritorious Student at Function on 28 April 2013" /></li>
           <li><img width="500" height="250" src="images/prize2.jpg" alt="Prize To Meritorious Student at Function on 28 April 2013" /></li>
           <li><img width="500" height="250" src="images/speech.jpg" alt="Speech given by Kishan Lal Vaishnav (Organizer)" /></li>
