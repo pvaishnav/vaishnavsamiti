@@ -1,0 +1,90 @@
+CREATE DATABASE VaishnavSamiti;
+
+CREATE TABLE ApplicationForms
+(
+id int NOT NULL AUTO_INCREMENT,
+name varchar(255),
+date varchar(255),
+dayDOB varchar(255),
+monthDOB varchar(255),
+yearDOB varchar(255),
+classStudying varchar(255),
+schoolStudying varchar(255),
+coachingName varchar(255),
+handicap varchar(255),
+woman varchar(255),
+bpl varchar(255),
+widow varchar(255),
+rural varchar(255),
+
+
+
+class_1 varchar(255),
+rollno_1 varchar(255),
+maxMarks_1 varchar(255),
+marksObtained_1 varchar(255),
+percentage_1 varchar(255),
+passingYear_1 varchar(255),
+schoolName_1 varchar(255),
+
+
+
+class_2 varchar(255),
+rollno_2 varchar(255),
+maxMarks_2 varchar(255),
+marksObtained_2 varchar(255),
+percentage_2 varchar(255),
+passingYear_2 varchar(255),
+schoolName_2 varchar(255),
+
+class_3 varchar(255),
+rollno_3 varchar(255),
+maxMarks_3 varchar(255),
+marksObtained_3 varchar(255),
+percentage_3 varchar(255),
+passingYear_3 varchar(255),
+schoolName_3 varchar(255),
+
+class_4 varchar(255),
+rollno_4 varchar(255),
+maxMarks_4 varchar(255),
+marksObtained_4 varchar(255),
+percentage_4 varchar(255),
+passingYear_4 varchar(255),
+schoolName_4 varchar(255),
+
+class_5 varchar(255),
+rollno_5 varchar(255),
+maxMarks_5 varchar(255),
+marksObtained_5 varchar(255),
+percentage_5 varchar(255),
+passingYear_5 varchar(255),
+schoolName_5 varchar(255),
+
+
+familyIncomeDigit varchar(255),
+familyIncomeWord varchar(255),
+currentAddress varchar(255),
+permanentAddress varchar(255),
+mobileNumber varchar(255),
+options_1 varchar(255),
+options_2 varchar(255),
+
+PRIMARY KEY (id)
+);
+
+ALTER TABLE ApplicationForms AUTO_INCREMENT=1;
+
+
+INSERT INTO ApplicationForms (name, date, dayDOB, monthDOB, yearDOB, classStudying, schoolStudying, coachingName, handicap, woman, bpl, widow, rural, class_1, rollno_1, maxMarks_1, marksObtained_1, percentage_1, 
+passingYear_1, schoolName_1,
+class_2, rollno_2, maxMarks_2, marksObtained_2, percentage_2, 
+passingYear_2, schoolName_2,
+class_3, rollno_3, maxMarks_3, marksObtained_3, percentage_3, 
+passingYear_3, schoolName_3,
+class_4, rollno_4, maxMarks_4, marksObtained_4, percentage_4, 
+passingYear_4, schoolName_4,
+class_5, rollno_5, maxMarks_5, marksObtained_5, percentage_5, 
+passingYear_5, schoolName_5,
+familyIncomeDigit, familyIncomeWord, currentAddress, permanentAddress, mobileNumber, options_1, options_2)
+VALUES ('hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye');
