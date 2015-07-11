@@ -139,6 +139,10 @@ include("htmlTemplate/header.html");
       <td colspan="3"><input name="currentSchoolName" type="text" id="currentSchoolName" size="60"></td>
     </tr>
     <tr>
+      <td height="23">School/College Address</td>
+      <td colspan="3"><input name="schoolAddress" type="text" id="schoolAddress" size="100"></td>
+    </tr>
+    <tr>
       <td height="23">Coaching Name</td>
       <td colspan="3"><input name="coachingName" type="text" id="coachingName" size="60"></td>
     </tr>
@@ -149,7 +153,12 @@ include("htmlTemplate/header.html");
         Woman  &nbsp;&nbsp;<input type="checkbox" name="bpl" value="bpl">
         B.P.L  &nbsp;&nbsp;<input type="checkbox" name="widow" value="widow">
         Widow  &nbsp;&nbsp;<input type="checkbox" name="rural" value="rural">
-        Rural</td>
+        Rural  &nbsp;&nbsp;<input type="checkbox" name="others" value="others">
+        Others</td>
+    </tr>
+    <tr>
+      <td height="23">Gautra</td>
+      <td colspan="3"><input name="gautra" type="text" id="gautra" size="60"></td>
     </tr>
   </tbody>
 </table>
@@ -160,7 +169,7 @@ include("htmlTemplate/header.html");
     <tr>
       <td width="51">Class</td>
       <td width="50">Roll No.</td>
-      <td width="64"><p>Maximum Marks</p></td>
+      <td width="64">Maximum Marks</td>
       <td width="56">Marks Obtained</td>
       <td width="67">Percentage</td>
       <td width="55">Year of Passing</td>
@@ -213,6 +222,63 @@ include("htmlTemplate/header.html");
     </tr>
   </tbody>
 </table>
+
+<p>&nbsp;</p>
+<p><strong>Family Members Details :</strong></p>
+<table width="600" border="1">
+  <tbody>
+    <tr>
+      <td width="101">Name</td>
+      <td width="55">Relation with Applicant</td>
+      <td width="74">Qualification</td>
+      <td width="241">Occupation Details</td>
+      <td width="83">Annual Income</td>
+    </tr>
+    <tr>
+      <td><input name="familyName_1" type="text" size="20"></td>
+      <td><input type="text" name="familyRelation_1" size="10"></td>
+      <td><input name="familyQualification_1" type="text" size="10"></td>
+      <td><input name="familyOccupation_1" type="text" size="50"></td>
+      <td><input name="familyIncome_1" type="text" size="10"></td>
+    </tr>
+    <tr>
+      <td><input name="familyName_2" type="text" size="20"></td>
+      <td><input type="text" name="familyRelation_2" size="10"></td>
+      <td><input name="familyQualification_2" type="text" size="10"></td>
+      <td><input name="familyOccupation_2" type="text" size="50"></td>
+      <td><input name="familyIncome_2" type="text" size="10"></td>
+    </tr>
+    <tr>
+      <td><input name="familyName_3" type="text" size="20"></td>
+      <td><input type="text" name="familyRelation_3" size="10"></td>
+      <td><input name="familyQualification_3" type="text" size="10"></td>
+      <td><input name="familyOccupation_3" type="text" size="50"></td>
+      <td><input name="familyIncome_3" type="text" size="10"></td>
+    </tr>
+    <tr>
+      <td><input name="familyName_4" type="text" size="20"></td>
+      <td><input type="text" name="familyRelation_4" size="10"></td>
+      <td><input name="familyQualification_4" type="text" size="10"></td>
+      <td><input name="familyOccupation_4" type="text" size="50"></td>
+      <td><input name="familyIncome_4" type="text" size="10"></td>
+    </tr>
+    <tr>
+      <td><input name="familyName_5" type="text" size="20"></td>
+      <td><input type="text" name="familyRelation_5" size="10"></td>
+      <td><input name="familyQualification_5" type="text" size="10"></td>
+      <td><input name="familyOccupation_5" type="text" size="50"></td>
+      <td><input name="familyIncome_5" type="text" size="10"></td>
+    </tr>
+    <tr>
+      <td><input name="familyName_6" type="text" size="20"></td>
+      <td><input type="text" name="familyRelation_6" size="10"></td>
+      <td><input name="familyQualification_6" type="text" size="10"></td>
+      <td><input name="familyOccupation_6" type="text" size="50"></td>
+      <td><input name="familyIncome_6" type="text" size="10"></td>
+    </tr>
+  </tbody>
+</table>
+    
 <p>&nbsp;</p>
 <table width="600" border="1">
   <tbody>
@@ -236,15 +302,17 @@ include("htmlTemplate/header.html");
       <td>Mobile No.</td>
       <td><input name="contactNo" type="text" id="contactNo" size="60"></td>
     </tr>
+      
     <tr>
-      <td rowspan="2">Options : (See Point No. 12 from Rules Section)</td>
-      <td>1.
-      <input name="options_1" type="text" id="options_1" size="60"></td>
+      <td>Name of Person motivated you to join VaishnavSamiti</td>
+      <td><input name="motivatorName" type="text" id="motivatorName" size="60"></td>
     </tr>
+      
     <tr>
-      <td>2. 
-      <input name="options_2" type="text" id="options_2" size="60"></td>
+      <td>Contact Numbre of Person motivated you to join VaishnavSamiti</td>
+      <td><input name="motivatorContact" type="text" id="motivatorContact" size="60"></td>
     </tr>
+
   </tbody>
 </table>
 

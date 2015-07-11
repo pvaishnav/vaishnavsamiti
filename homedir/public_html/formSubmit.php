@@ -32,19 +32,34 @@ $handicap = getValues('handicap');
 $bpl = getValues('bpl');
 $widow = getValues('widow');
 $rural = getValues('rural');
+$others = getValues('others');
 $date = getCurrentDate();
 
-$sql = "INSERT INTO ApplicationForms ". "(name, date, dayDOB, monthDOB, yearDOB, classStudying, schoolStudying, coachingName, handicap, woman, bpl, widow, rural, class_1, rollno_1, maxMarks_1, marksObtained_1, percentage_1, 
-passingYear_1, schoolName_1,
-class_2, rollno_2, maxMarks_2, marksObtained_2, percentage_2 , 
-passingYear_2, schoolName_2,
-class_3, rollno_3, maxMarks_3, marksObtained_3, percentage_3, 
-passingYear_3, schoolName_3,
-class_4, rollno_4, maxMarks_4, marksObtained_4, percentage_4, 
-passingYear_4, schoolName_4,
-class_5, rollno_5, maxMarks_5, marksObtained_5, percentage_5, 
-passingYear_5, schoolName_5,
-familyIncomeDigit, familyIncomeWord, currentAddress, permanentAddress, mobileNumber, options_1, options_2) ".
+$sql = "INSERT INTO ApplicationForms ". "(name, date, dayDOB, monthDOB, yearDOB, classStudying, schoolStudying, coachingName, schoolAddress, gautra, handicap, woman, bpl, widow, rural, others, 
+
+class_1, rollno_1, maxMarks_1, marksObtained_1, percentage_1, passingYear_1, schoolName_1,
+
+class_2, rollno_2, maxMarks_2, marksObtained_2, percentage_2 , passingYear_2, schoolName_2,
+
+class_3, rollno_3, maxMarks_3, marksObtained_3, percentage_3, passingYear_3, schoolName_3,
+
+class_4, rollno_4, maxMarks_4, marksObtained_4, percentage_4, passingYear_4, schoolName_4,
+
+class_5, rollno_5, maxMarks_5, marksObtained_5, percentage_5, passingYear_5, schoolName_5,
+
+familyName_1, familyRelation_1, familyQualification_1, familyOccupation_1, familyIncome_1,
+
+familyName_2, familyRelation_2, familyQualification_2, familyOccupation_2, familyIncome_2,
+
+familyName_3, familyRelation_3, familyQualification_3, familyOccupation_3, familyIncome_3,
+
+familyName_4, familyRelation_4, familyQualification_4, familyOccupation_4, familyIncome_4,
+
+familyName_5, familyRelation_5, familyQualification_5, familyOccupation_5, familyIncome_5,
+
+familyName_6, familyRelation_6, familyQualification_6, familyOccupation_6, familyIncome_6,
+
+familyIncomeDigit, familyIncomeWord, currentAddress, permanentAddress, mobileNumber, motivatorName, motivatorContact) ".
 "VALUES ("
     .((empty($_POST['name'])) ? '""' :'"'.$_POST['name'].'"').","
     ."$date,"
@@ -54,12 +69,14 @@ familyIncomeDigit, familyIncomeWord, currentAddress, permanentAddress, mobileNum
     .((empty($_POST['classStudying'])) ? '""' :'"'.$_POST['classStudying'].'"').","
     .((empty($_POST['currentSchoolName'])) ? '""' : '"'.$_POST['currentSchoolName'].'"').","
     .((empty($_POST['coachingName'])) ? '""' : '"'.$_POST['coachingName'].'"').","
-    
+    .((empty($_POST['schoolAddress'])) ? '""' : '"'.$_POST['schoolAddress'].'"').","
+    .((empty($_POST['gautra'])) ? '""' : '"'.$_POST['gautra'].'"').","    
     ."$handicap,"
     ."$woman,"
     ."$bpl,"
     ."$widow,"
     ."$rural,"
+    ."$others,"
     
     .((empty($_POST['class_1'])) ? '""' : '"'.$_POST['class_1'].'"').","
     .((empty($_POST['rollNo_1'])) ? '""' : '"'.$_POST['rollNo_1'].'"').","
@@ -101,13 +118,50 @@ familyIncomeDigit, familyIncomeWord, currentAddress, permanentAddress, mobileNum
     .((empty($_POST['yearOfPassing_5'])) ? '""' : '"'.$_POST['yearOfPassing_5'].'"').","
     .((empty($_POST['schoolName_5'])) ? '""' : '"'.$_POST['schoolName_5'].'"').","
     
+    .((empty($_POST['familyName_1'])) ? '""' : '"'.$_POST['familyName_1'].'"').","
+    .((empty($_POST['familyRelation_1'])) ? '""' : '"'.$_POST['familyRelation_1'].'"').","
+    .((empty($_POST['familyQualification_1'])) ? '""' : '"'.$_POST['familyQualification_1'].'"').","
+    .((empty($_POST['familyOccupation_1'])) ? '""' : '"'.$_POST['familyOccupation_1'].'"').","
+    .((empty($_POST['familyIncome_1'])) ? '""' : '"'.$_POST['familyIncome_1'].'"').","
+    
+    .((empty($_POST['familyName_2'])) ? '""' : '"'.$_POST['familyName_2'].'"').","
+    .((empty($_POST['familyRelation_2'])) ? '""' : '"'.$_POST['familyRelation_2'].'"').","
+    .((empty($_POST['familyQualification_2'])) ? '""' : '"'.$_POST['familyQualification_2'].'"').","
+    .((empty($_POST['familyOccupation_2'])) ? '""' : '"'.$_POST['familyOccupation_2'].'"').","
+    .((empty($_POST['familyIncome_2'])) ? '""' : '"'.$_POST['familyIncome_2'].'"').","
+    
+    .((empty($_POST['familyName_3'])) ? '""' : '"'.$_POST['familyName_3'].'"').","
+    .((empty($_POST['familyRelation_3'])) ? '""' : '"'.$_POST['familyRelation_3'].'"').","
+    .((empty($_POST['familyQualification_3'])) ? '""' : '"'.$_POST['familyQualification_3'].'"').","
+    .((empty($_POST['familyOccupation_3'])) ? '""' : '"'.$_POST['familyOccupation_3'].'"').","
+    .((empty($_POST['familyIncome_3'])) ? '""' : '"'.$_POST['familyIncome_3'].'"').","
+    
+    .((empty($_POST['familyName_4'])) ? '""' : '"'.$_POST['familyName_4'].'"').","
+    .((empty($_POST['familyRelation_4'])) ? '""' : '"'.$_POST['familyRelation_4'].'"').","
+    .((empty($_POST['familyQualification_4'])) ? '""' : '"'.$_POST['familyQualification_4'].'"').","
+    .((empty($_POST['familyOccupation_4'])) ? '""' : '"'.$_POST['familyOccupation_4'].'"').","
+    .((empty($_POST['familyIncome_4'])) ? '""' : '"'.$_POST['familyIncome_4'].'"').","
+    
+    .((empty($_POST['familyName_5'])) ? '""' : '"'.$_POST['familyName_5'].'"').","
+    .((empty($_POST['familyRelation_5'])) ? '""' : '"'.$_POST['familyRelation_5'].'"').","
+    .((empty($_POST['familyQualification_5'])) ? '""' : '"'.$_POST['familyQualification_5'].'"').","
+    .((empty($_POST['familyOccupation_5'])) ? '""' : '"'.$_POST['familyOccupation_5'].'"').","
+    .((empty($_POST['familyIncome_5'])) ? '""' : '"'.$_POST['familyIncome_5'].'"').","
+    
+    .((empty($_POST['familyName_6'])) ? '""' : '"'.$_POST['familyName_6'].'"').","
+    .((empty($_POST['familyRelation_6'])) ? '""' : '"'.$_POST['familyRelation_6'].'"').","
+    .((empty($_POST['familyQualification_6'])) ? '""' : '"'.$_POST['familyQualification_6'].'"').","
+    .((empty($_POST['familyOccupation_6'])) ? '""' : '"'.$_POST['familyOccupation_6'].'"').","
+    .((empty($_POST['familyIncome_6'])) ? '""' : '"'.$_POST['familyIncome_6'].'"').","
+    
+    
     .((empty($_POST['annualIncomeDigits'])) ? '""' : '"'.$_POST['annualIncomeDigits'].'"').","
     .((empty($_POST['annualIncomeWords'])) ? '""' : '"'.$_POST['annualIncomeWords'].'"').","
     .((empty($_POST['currentAddress'])) ? '""' : '"'.$_POST['currentAddress'].'"').","
     .((empty($_POST['permanentAddress'])) ? '""' : '"'.$_POST['permanentAddress'].'"').","
     .((empty($_POST['contactNo'])) ? '""' : '"'.$_POST['contactNo'].'"').","
-    .((empty($_POST['options_1'])) ? '""' : '"'.$_POST['options_1'].'"').","
-    .((empty($_POST['options_2'])) ? '""' : '"'.$_POST['options_2'].'"')  
+    .((empty($_POST['motivatorName'])) ? '""' : '"'.$_POST['motivatorName'].'"').","
+    .((empty($_POST['motivatorContact'])) ? '""' : '"'.$_POST['motivatorContact'].'"')  
     
     .")";
 
