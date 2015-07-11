@@ -88,3 +88,60 @@ class_5, rollno_5, maxMarks_5, marksObtained_5, percentage_5,
 passingYear_5, schoolName_5,
 familyIncomeDigit, familyIncomeWord, currentAddress, permanentAddress, mobileNumber, options_1, options_2)
 VALUES ('hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye','hii', 'hello', 'heyy', 'holla', 'aye');
+
+
+
+
+// Alter table to add new columns - 11 July 2015
+
+ALTER TABLE ApplicationForms
+ADD (gautra varchar(255),
+     others varchar(255),
+     schoolAddress varchar(255),
+     
+     familyName_1 varchar(255),
+     familyRelation_1 varchar(255),
+     familyQualification_1 varchar(255),
+     familyOccupation_1 varchar(255),
+     familyIncome_1 varchar(255),
+     
+     familyName_2 varchar(255),
+     familyRelation_2 varchar(255),
+     familyQualification_2 varchar(255),
+     familyOccupation_2 varchar(255),
+     familyIncome_2 varchar(255),
+     
+     familyName_3 varchar(255),
+     familyRelation_3 varchar(255),
+     familyQualification_3 varchar(255),
+     familyOccupation_3 varchar(255),
+     familyIncome_3 varchar(255),
+     
+     familyName_4 varchar(255),
+     familyRelation_4 varchar(255),
+     familyQualification_4 varchar(255),
+     familyOccupation_4 varchar(255),
+     familyIncome_4 varchar(255),
+     
+     familyName_5 varchar(255),
+     familyRelation_5 varchar(255),
+     familyQualification_5 varchar(255),
+     familyOccupation_5 varchar(255),
+     familyIncome_5 varchar(255),
+     
+     familyName_6 varchar(255),
+     familyRelation_6 varchar(255),
+     familyQualification_6 varchar(255),
+     familyOccupation_6 varchar(255),
+     familyIncome_6 varchar(255),
+     
+     
+     motivatorName varchar(255),
+     motivatorContact varchar(255)
+     )
+     
+ALTER TABLE ApplicationForms
+DROP COLUMN options_1;
+
+ALTER TABLE ApplicationForms
+DROP COLUMN options_2;
